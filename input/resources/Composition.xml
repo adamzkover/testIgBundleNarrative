@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+    <id value="1"/>
+    <status value="final"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="100018-1"/>
+        </coding>
+    </type>
+    <date value="2011-01-11"/>
+    <author>
+        <display value="Arthur"/>
+    </author>
+    <title value="My Composition"/>
+    <section>
+        <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <p>This is my Composition.</p>
+            </div>
+        </text>
+    </section>
+</Composition>
